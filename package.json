@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "start-prod": "node index.js",
-    "lint": "eslint './**/*.{js,jsx}'",
+    "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production"
   },
   "repository": {
