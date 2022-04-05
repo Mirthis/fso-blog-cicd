@@ -1,0 +1,37 @@
+### valid
+PUT http://localhost:3001/api/persons/62126bc0858401288cda8205
+Content-Type: application/json
+
+{
+  "name": "Jon Doe",
+  "number": "999-999-999"
+}
+
+### non-existent ID
+PUT http://localhost:3001/api/persons/62126bc0858401288cda8207
+Content-Type: application/json
+
+{
+  "name": "Jon Doe",
+  "number": "666-666-666"
+}
+
+### invalid ID
+PUT http://localhost:3001/api/persons/62126bc0858401288cda8207xsds
+Content-Type: application/json
+
+{
+  "name": "Jon Doe",
+  "number": "666-666-666"
+}
+
+### No content
+PUT http://localhost:3001/api/persons/62126bc0858401288cda8205
+
+### short name
+PUT http://localhost:3001/api/persons/62126bc0858401288cda8205
+Content-Type: application/json
+
+{
+  "name": "Jo"
+}

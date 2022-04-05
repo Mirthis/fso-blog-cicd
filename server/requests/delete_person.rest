@@ -1,0 +1,8 @@
+### valid
+DELETE http://localhost:3001/api/persons/62126bc0858401288cda8205
+
+### non-existent
+DELETE http://localhost:3001/api/persons/621158c04b816d1b2d6b7f14
+
+### invalid
+DELETE http://localhost:3001/api/persons/621158c04b816d1b2d6b7f143ds
