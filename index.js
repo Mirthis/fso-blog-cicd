@@ -20,7 +20,7 @@ morgan.token('type', function (req) {
 })
 
 app.get('/ping', (req, res) => {
-  res.send('pong') // change this string to ensure a new version deployed
+  res.send('pong!')
 })
 
 app.get('/api/persons', (request, response) => {
