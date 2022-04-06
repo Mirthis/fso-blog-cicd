@@ -20,7 +20,7 @@ morgan.token('type', function (req) {
 })
 
 app.get('/ping', (req, res) => {
-  res.send('pong!')
+  res.send('pong')
 })
 
 app.get('/api/persons', (request, response) => {
