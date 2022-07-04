@@ -1,8 +1,10 @@
 # Full Stack open CI/CD
 
-This repository is used for the CI/CD module of the Full stack open course
+This repository contains the code developed for part 11 of the [Full Stack Open course](https://fullstackopen.com/en/).
 
-Fork the repository to complete course exercises
+The code I developed for the rest of the course can be found [here](https://github.com/Mirthis/fullstackopen).
+
+The live app on Heroku, that is deployed through the github CI/CD pipeline, can be found [here](https://fso-phonebook-cicd.herokuapp.com/).
 
 ## Commands
 
